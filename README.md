@@ -1,72 +1,70 @@
-# 📊 Excel Analytics Platform
+# Getting Started with Create React App
 
-A full-stack web application that allows users to upload Excel files, analyze their contents, and store them securely — all with a login-protected dashboard.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🚀 Project Overview
+In the project directory, you can run:
 
-Excel Analytics is a productivity tool built using **React (Vite)**, **Node.js**, **Express**, and **MongoDB**, designed to parse Excel files and extract meaningful insights. Users can register, upload their Excel data, and visualize or manage the uploaded content.
+### `npm start`
 
-This project was born out of curiosity, learning, and countless hours of trial-and-error. As a solo developer, I faced real struggles understanding full-stack workflows — from authentication to Excel parsing, state management, and backend integration.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-So if you’re a developer, learner, or contributor — **you’re warmly invited to join this journey** 💙
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## 🛠️ Tech Stack
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Frontend:** React (Vite), Axios, React Router
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Auth:** JWT (JSON Web Tokens)
-- **Excel Parser:** `xlsx` npm package
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🔐 Features
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- 🔐 User Authentication (Register & Login)
-- 📤 Excel File Upload (.xlsx/.xls)
-- 📁 Excel Data Preview (JSON Format)
-- 🧠 Data saved per user in MongoDB
-- 🔐 Protected Routes with JWT
-- 🎯 Modular folder structure (pages, components, styles)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 📂 Folder Structure (Frontend)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-src/
-├── components/ // Navbar, Footer, ProtectedRoute
-├── pages/ // Login, Register
-├── services/ // API services
-├── styles/ // CSS modules
-├── utils/ // Excel parsing helpers
-├── App.jsx
-└── main.jsx
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🤝 Contributing
+## Learn More
 
-I built this app while learning full-stack development — and now I’d love for others to learn or grow with me!
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### How You Can Help:
-- 🧪 Improve error handling and validation
-- 🎨 Design a cleaner dashboard UI
-- 📈 Add Excel charts or filters
-- 🗃️ Add file version history
-- 🧠 Suggest or add a reporting feature
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Feel free to fork, open issues, or submit PRs 🙌
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 🧑‍💻 Getting Started (Local Setup)
+### Analyzing the Bundle Size
 
-1. Clone the repo:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```bash
-git clone https://github.com/Rohnpuri/Excel_Analytics.git
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
